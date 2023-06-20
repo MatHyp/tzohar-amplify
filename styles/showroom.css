@@ -1,0 +1,21 @@
+.showroom-conatiner {
+  width: 100%;
+  margin: 20px 0 100px 0;
+}
+
+.showroom-images {
+  display: flex;
+  width: 60%;
+  justify-content: space-around;
+  margin: 0 auto;
+}
+
+.show_room_photo {
+  width: 40%;
+}
+
+.yt {
+  margin: 60px auto 0 auto;
+  text-align: center;
+  width: 80%;
+}

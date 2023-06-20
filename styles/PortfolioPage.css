@@ -1,0 +1,46 @@
+.main-project-container {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.project-flex {
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-around;
+  word-break: break-word;
+  width: 80%;
+  flex-wrap: wrap;
+}
+
+.project {
+  width: 45%;
+  margin-bottom: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.img-wraper {
+  height: 80%;
+  width: 100%;
+}
+
+.details h3 {
+  margin: 10px 0;
+}
+
+.details p {
+  margin-top: 20px;
+}
+
+@media (max-width: 1250px) {
+  .project {
+    width: 80%;
+  }
+}
+
+@media (max-width: 750px) {
+  .project {
+    width: 92%;
+  }
+}
